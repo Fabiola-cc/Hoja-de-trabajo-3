@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * @date 07/02/2023
  */
 
-public class Convertor {
+public class Converter {
 
     /**
      * Método que convierte de un archivo txt a un ArrayList los números aleatorios.
