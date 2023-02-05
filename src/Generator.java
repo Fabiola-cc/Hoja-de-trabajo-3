@@ -5,7 +5,7 @@
  * Fabiola Contreras
  * Madeline Castro 
  * @category Ejercicio #3
- * Propósito: 
+ * Propósito: Generar un ArrayList con números random y guardarlos en un txt 
  * @date 07/02/2023
  */
 

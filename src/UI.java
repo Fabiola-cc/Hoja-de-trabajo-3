@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Fabiola Contreras
  * Madeline Castro 
  * @category Ejercicio #3
- * Propósito: 
+ * Propósito: Intefaz de Usuario para manejar los sorts y cantidad de números deseados 
  * @date 07/02/2023
  */
 
@@ -16,6 +16,10 @@ public class UI {
     static Generator gen = new Generator();
     static Scanner sc = new Scanner(System.in); 
     static Convertor convertor = new Convertor();
+
+    //Sorts 
+    static QuickSort quickSort = new QuickSort(); 
+    static SelectionSort selectionSort = new SelectionSort();
 
     public static void main(String[] args) throws IOException {
         
@@ -30,10 +34,58 @@ public class UI {
 
         int op = sc.nextInt(); 
 
+        System.out.println("Se han generado los números...\n");
         gen.saveinTxt(gen.randomNum(op));
 
-        convertor.fromArrayListToArray(convertor.fromTxtToArrayList()); 
-    
+        System.out.println("Números desordenados para realizar la prueba: ");
+        int[] ArrayForSorts = convertor.fromArrayListToArray(convertor.fromTxtToArrayList()); 
+        System.out.println("\n");
+        
+        System.out.println("¿Qué algoritmo de ordenamiento desea utilizar?");
+        System.out.println("\t1. Gnome Sort");
+        System.out.println("\t2. Merge Sort");
+        System.out.println("\t3. Quick Sort");
+        System.out.println("\t4. Radix Sort");
+        System.out.println("\t5. Selection Sort");
+
+        int type = sc.nextInt(); 
+        System.out.println("\n");
+
+        switch(type){
+
+            case 1: 
+
+                break; 
+            
+            case 2: 
+
+                break; 
+
+            case 3: 
+
+                int n = ArrayForSorts.length;
+                quickSort.quickSort(ArrayForSorts, 0, n - 1);
+                System.out.println("");
+                System.out.println("Números ordenados: ");
+                quickSort.printArray(ArrayForSorts, n);
+                System.out.println("\n");
+	
+                break; 
+
+            case 4: 
+
+                break; 
+            
+            case 5: 
+
+                selectionSort.sort(ArrayForSorts);
+                System.out.println("Números ordenados:");
+                selectionSort.printArray(ArrayForSorts);
+	
+                break; 
+
+            }   
+
     }
-    
 }
+
