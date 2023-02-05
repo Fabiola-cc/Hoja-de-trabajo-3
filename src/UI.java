@@ -1,4 +1,5 @@
 import java.io.IOException;
+import java.util.Scanner;
 
 /**
  * @author 
@@ -13,10 +14,26 @@ import java.io.IOException;
 public class UI {
     
     static Generator gen = new Generator();
+    static Scanner sc = new Scanner(System.in); 
+    static Convertor convertor = new Convertor();
 
     public static void main(String[] args) throws IOException {
         
-        gen.randomNum(); 
-        
+        menuPrincipal(); 
+
     }
+
+    static public void menuPrincipal(){
+        
+        System.out.println("\nBinvenido a la prueba de algoritmos de ordenamiento");
+        System.out.println("¿Cuántos números desea generar? (Solo de 10 a 3000)");
+
+        int op = sc.nextInt(); 
+
+        gen.saveinTxt(gen.randomNum(op));
+
+        convertor.fromArrayListToArray(convertor.fromTxtToArrayList()); 
+    
+    }
+    
 }
