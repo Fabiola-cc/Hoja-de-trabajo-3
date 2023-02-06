@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 /**
  * @author
- *         Maria José Villafuerte
- *         Fabiola Contreras
- *         Madeline Castro
+ * Maria José Villafuerte
+ * Fabiola Contreras
+ * Madeline Castro
  * @category Ejercicio #3
- *           Propósito: Intefaz de Usuario para manejar los sorts y cantidad de
- *           números deseados
+ * Propósito: Intefaz de Usuario para manejar los sorts y cantidad de
+ * números deseados
  * @date 07/02/2023
  */
 
@@ -68,9 +68,7 @@ public class UI {
                 break;
 
             case 2:
-                merge.merge(ArrayForSorts, op, type, n);
                 merge.sort(ArrayForSorts, 0, ArrayForSorts.length - 1);
-                System.out.println("\nSorted array");
                 System.out.print("\nNúmeros ordenardos tras usar Merge sort: ");
                 merge.printArray(ArrayForSorts);
                 break;
@@ -79,7 +77,7 @@ public class UI {
 
                 quickSort.quickSort(ArrayForSorts, 0, n - 1);
                 System.out.println("");
-                System.out.println("Números ordenados: ");
+                System.out.println("Números ordenados tras usar Quick sort: ");
                 quickSort.printArray(ArrayForSorts, n);
                 System.out.println("\n");
 
@@ -95,7 +93,7 @@ public class UI {
             case 5:
 
                 selectionSort.sort(ArrayForSorts);
-                System.out.println("Números ordenados:");
+                System.out.println("Números ordenados tras usar Selection sort:");
                 selectionSort.printArray(ArrayForSorts);
 
                 break;

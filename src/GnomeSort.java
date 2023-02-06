@@ -6,7 +6,13 @@
  */
 
 public class GnomeSort {
-    static void gnomeSort(int arr[], int n) {
+
+    /**
+     * Método de ordenamiento de números 
+     * @param arr Array de tipo int con números aleatorios desordenados 
+     * @param n Cantidad de elementos dentro de Array 
+     */
+    static int[] gnomeSort(int arr[], int n) {
         int index = 0;
 
         while (index < n) {
@@ -22,6 +28,6 @@ public class GnomeSort {
                 index--;
             }
         }
-        return;
+        return arr;
     }
 }

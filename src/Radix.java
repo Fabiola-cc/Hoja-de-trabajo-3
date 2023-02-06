@@ -1,10 +1,18 @@
-// Radix sort Java implementation
+import java.util.Arrays;
 
-import java.util.*;
+// Description: Java Code for Radix Sort 
+// Author: Rajat Mishra in GeeksforGeeks
+// Date: 27 jan, 2023
+// URL: https://www.geeksforgeeks.org/radix-sort/
 
 class Radix {
 
-	// A utility function to get maximum value in arr[]
+	/**
+	 * Método que obtiene el valor máximo del Array 
+	 * @param arr Array de int de números random 
+	 * @param n Elementos totales del Array 
+	 * @return valor máximo 
+	 */
 	static int getMax(int arr[], int n)
 	{
 		int mx = arr[0];
@@ -14,8 +22,12 @@ class Radix {
 		return mx;
 	}
 
-	// A function to do counting sort of arr[] according to
-	// the digit represented by exp.
+	/**
+	 * Método que cuenta el ordenamiento de Array de ints de acuerdo al dígito representado por la variable exp
+	 * @param arr Array de int de números random 
+	 * @param n Elementos totales del Array 
+	 * @param exp exp es 10^i donde i es el dígito actual 
+	 */
 	static void countSort(int arr[], int n, int exp)
 	{
 		int output[] = new int[n]; // output array
@@ -45,9 +57,12 @@ class Radix {
 			arr[i] = output[i];
 	}
 
-	// The main function to that sorts arr[] of
-	// size n using Radix Sort
-	static void radixsort(int arr[], int n)
+	/**
+	 * Método principal del Radix Sort 
+	 * @param arr Array de int de números random 
+	 * @param n Elementos totales del Array 
+	 */
+	void radixsort(int arr[], int n)
 	{
 		// Find the maximum number to know number of digits
 		int m = getMax(arr, n);
@@ -59,11 +74,15 @@ class Radix {
 			countSort(arr, n, exp);
 	}
 
-	// A utility function to print an array
-	static void print(int arr[], int n)
+
+	/**
+	 * Método que imprime el Array ordenado 
+	 * @param arr Array de int de números random 
+	 * @param n Elementos totales del Array 
+	 */
+	void print(int arr[], int n)
 	{
 		for (int i = 0; i < n; i++)
-			System.out.print(arr[i] + " ");
+			System.out.print(arr[i] + "\n");
 	}
-
 }

@@ -59,7 +59,7 @@ class QuickSort {
 	 * @param low índice inicial (0)
 	 * @param high índice final (n-1, dónde n es el tamaño de Array) 
 	 */
-	void quickSort(int[] arr, int low, int high)
+	int[] quickSort(int[] arr, int low, int high)
 	{
 		if (low < high) {
 
@@ -72,6 +72,7 @@ class QuickSort {
 			quickSort(arr, low, pi - 1);
 			quickSort(arr, pi + 1, high);
 		}
+		return arr;
 	}
 
 	/**

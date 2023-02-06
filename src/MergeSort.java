@@ -1,8 +1,18 @@
-/* Java program for Merge Sort */
+// Description: Java Code for Merge Sort 
+// Author: Rajat Mishra in GeeksforGeeks
+// Date: 27 jan, 2023
+// URL: https://www.geeksforgeeks.org/merge-sort/
+
+
 class MergeSort {
-	// Merges two subarrays of arr[].
-	// First subarray is arr[l..m]
-	// Second subarray is arr[m+1..r]
+
+	/**
+	 * Método para realizar ordenamiento de números 
+	 * @param arr Array de ints de números aleatorios desordenados 
+	 * @param l Inicio del Array 
+	 * @param m Medio del Array 
+	 * @param r Final del Array 
+	 */
 	void merge(int arr[], int l, int m, int r)
 	{
 		// Find sizes of two subarrays to be merged
@@ -53,8 +63,12 @@ class MergeSort {
 		}
 	}
 
-	// Main function that sorts arr[l..r] using
-	// merge()
+	/**
+	 * Método principal del Merge Sort 
+	 * @param arr Array de ints de números random desordenados 
+	 * @param l Inicio del Array 
+	 * @param r Final del Array 
+	 */
 	void sort(int arr[], int l, int r)
 	{
 		if (l < r) {
@@ -70,14 +84,17 @@ class MergeSort {
 		}
 	}
 
-	/* A utility function to print array of size n */
-	static void printArray(int arr[])
+	/**
+	 * Método que imprime el Array ordenado 
+	 * @param arr Array de int de números random 
+	 */
+	void printArray(int arr[])
 	{
 		int n = arr.length;
 		for (int i = 0; i < n; ++i)
-			System.out.print(arr[i] + " ");
+			System.out.print("\n" +arr[i] + "\n");
 		System.out.println();
 	}
 
 }
-/* This code is contributed by Rajat Mishra */
+
