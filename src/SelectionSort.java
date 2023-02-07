@@ -3,10 +3,13 @@
 // Date: 27 jan, 2023
 // URL: https://www.geeksforgeeks.org/selection-sort/
 
+/**
+ * Algoritmo de ordenamiento SelectionSort
+ */
 public class SelectionSort
 {
 	/**
-     * Método que arregla de forma ascendente el Array
+     * Metodo que arregla de forma ascendente el Array
 	 * @param arr Array de ints sacados del txt 
 	 */
 	void sort(int arr[])
@@ -31,7 +34,7 @@ public class SelectionSort
 	}
 
 	/**
-     * Método que imprime el Array ordenado 
+     * Metodo que imprime el Array ordenado
 	 * @param arr Array de ints sacados del txt 
 	 */
 	void printArray(int arr[])

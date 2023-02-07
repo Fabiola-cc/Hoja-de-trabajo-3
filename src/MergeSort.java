@@ -3,7 +3,9 @@
 // Date: 27 jan, 2023
 // URL: https://www.geeksforgeeks.org/merge-sort/
 
-
+/**
+ * Algoritmo de ordenamiento MergeSort
+ */
 class MergeSort {
 
 	/**

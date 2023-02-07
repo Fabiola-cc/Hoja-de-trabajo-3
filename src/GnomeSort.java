@@ -5,12 +5,16 @@
  * URL: https://www.geeksforgeeks.org/gnome-sort-a-stupid-one/ 
  */
 
+/**
+ * Algoritmo de ordenamiento GnomeSort
+ */
 public class GnomeSort {
 
     /**
-     * MEtodo de ordenamiento de números
-     * @param arr Array de tipo int con números aleatorios desordenados 
-     * @param n Cantidad de elementos dentro de Array 
+     * Metodo de ordenammiento de numeros
+     * @param arr Array de tipo int con numero aleatorios desordenados
+     * @param n Cantidad de elementos dentro del Array arr
+     * @return arr Array ya ordenado con GnomeSort
      */
     static int[] gnomeSort(int arr[], int n) {
         int index = 0;

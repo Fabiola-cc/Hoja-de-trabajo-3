@@ -3,6 +3,9 @@
 // Date: 17 jan, 2023
 // URL: https://www.geeksforgeeks.org/quick-sort/
 
+/**
+ * Algoritmo de ordenamiento QuickSort
+ */
 class QuickSort {
 
 	/**

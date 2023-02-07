@@ -12,6 +12,9 @@ import java.util.ArrayList;
  * @date 07/02/2023
  */
 
+/**
+ * Clase para convertir archivos txt a Array de tipo int[]
+ */
 public class Converter {
 
     /**

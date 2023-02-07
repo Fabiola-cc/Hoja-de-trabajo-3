@@ -31,7 +31,7 @@ public class UI {
 
     }
     /**
-     * Método que genera el menu principal para el uso del usuario 
+     * Metodo que genera el menu principal para el uso del usuario
      */
     static public void menuPrincipal() {
 

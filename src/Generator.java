@@ -14,6 +14,9 @@ import java.util.Random;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ * Clase para generar números aleatorios y guardarlos en un txt
+ */
 public class Generator {
 
     /**
@@ -38,7 +41,7 @@ public class Generator {
     }
 
     /**
-     * Guardar los números rangom generados en un ArrayList dentro de un txt
+     * Guardar los numeros rangom generados en un ArrayList dentro de un txt
      * @param ArrayNumRandom ArrayList de números random generados 
      */
     public void saveinTxt(ArrayList<Integer> ArrayNumRandom){
