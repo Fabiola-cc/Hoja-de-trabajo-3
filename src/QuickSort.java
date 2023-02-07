@@ -6,7 +6,7 @@
 class QuickSort {
 
 	/**
-     * Función para intercambiar dos elementos 
+     * Funcion para intercambiar dos elementos
 	 * @param arr Array de ints desordenados
 	 * @param i Elemento 1 del Array
 	 * @param j Elemento 2 del Array 
@@ -19,11 +19,11 @@ class QuickSort {
 	}
 
 	/**
-     * Método que toma el último elemento del pivote y lo coloca en la posición correcta dentro del array 
-     * ordenado, toma el más pequeño que el pivote a la izquierda de este y los demás a la derecha 
+     * Metodo que toma el ultimo elemento del pivote y lo coloca en la posicion correcta dentro del array
+     * ordenado, toma el mas pequeño que el pivote a la izquierda de este y los demas a la derecha
 	 * @param arr Array de ints desordenados 
-	 * @param low índice inicial (0)
-	 * @param high índice final (n-1, dónde n es el tamaño de Array) 
+	 * @param low indice inicial (0)
+	 * @param high indice final (n-1, donde n es el tamaño de Array)
 	 * @return Número intercambiado 
 	 */
 	static int partition(int[] arr, int low, int high)
@@ -54,10 +54,10 @@ class QuickSort {
 	}
 
 	/**
-     * Función principal que implementa el QuickSort de los demás métodos 
+     * Funcion principal que implementa el QuickSort de los demas metodos
 	 * @param arr Array de ints desordenados 
-	 * @param low índice inicial (0)
-	 * @param high índice final (n-1, dónde n es el tamaño de Array) 
+	 * @param low indice inicial (0)
+	 * @param high indice final (n-1, donde n es el tamaño de Array)
 	 */
 	int[] quickSort(int[] arr, int low, int high)
 	{
@@ -76,7 +76,7 @@ class QuickSort {
 	}
 
 	/**
-     * Método que imprime el Array ordenado 
+     * Metodo que imprime el Array ordenado
 	 * @param arr Array de ints sacados del txt 
 	 */
 	void printArray(int[] arr, int size)

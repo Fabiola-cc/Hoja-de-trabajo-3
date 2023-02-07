@@ -17,7 +17,7 @@ import java.io.IOException;
 public class Generator {
 
     /**
-     * Método que genera aleatoriamente 3000 números comenzando con un mínimo de 100
+     * Metodo que genera aleatoriamente 3000 números comenzando con un mínimo de 100
      * @throws IOException Error al no generar correctamente el documento 
      */
     public ArrayList<Integer> randomNum(int range){

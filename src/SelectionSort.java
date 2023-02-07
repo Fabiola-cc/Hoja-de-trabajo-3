@@ -6,7 +6,7 @@
 public class SelectionSort
 {
 	/**
-     * Mérodo que arregla de forma ascendente el Array 
+     * Método que arregla de forma ascendente el Array
 	 * @param arr Array de ints sacados del txt 
 	 */
 	void sort(int arr[])

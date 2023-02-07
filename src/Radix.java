@@ -8,10 +8,10 @@ import java.util.Arrays;
 class Radix {
 
 	/**
-	 * Método que obtiene el valor máximo del Array 
-	 * @param arr Array de int de números random 
+	 * Metodo que obtiene el valor maximo del Array
+	 * @param arr Array de int de numeros random
 	 * @param n Elementos totales del Array 
-	 * @return valor máximo 
+	 * @return valor maximo
 	 */
 	static int getMax(int arr[], int n)
 	{
@@ -23,8 +23,8 @@ class Radix {
 	}
 
 	/**
-	 * Método que cuenta el ordenamiento de Array de ints de acuerdo al dígito representado por la variable exp
-	 * @param arr Array de int de números random 
+	 * Metodo que cuenta el ordenamiento de Array de ints de acuerdo al dígito representado por la variable exp
+	 * @param arr Array de int de numeros random
 	 * @param n Elementos totales del Array 
 	 * @param exp exp es 10^i donde i es el dígito actual 
 	 */
@@ -58,7 +58,7 @@ class Radix {
 	}
 
 	/**
-	 * Método principal del Radix Sort 
+	 * Metodo principal del Radix Sort
 	 * @param arr Array de int de números random 
 	 * @param n Elementos totales del Array 
 	 */
@@ -76,8 +76,8 @@ class Radix {
 
 
 	/**
-	 * Método que imprime el Array ordenado 
-	 * @param arr Array de int de números random 
+	 * Metodo que imprime el Array ordenado
+	 * @param arr Array de int de numeros random
 	 * @param n Elementos totales del Array 
 	 */
 	void print(int arr[], int n)

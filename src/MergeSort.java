@@ -7,8 +7,8 @@
 class MergeSort {
 
 	/**
-	 * Método para realizar ordenamiento de números 
-	 * @param arr Array de ints de números aleatorios desordenados 
+	 * Metodo para realizar ordenamiento de números
+	 * @param arr Array de ints de numeros aleatorios desordenados
 	 * @param l Inicio del Array 
 	 * @param m Medio del Array 
 	 * @param r Final del Array 
@@ -64,8 +64,8 @@ class MergeSort {
 	}
 
 	/**
-	 * Método principal del Merge Sort 
-	 * @param arr Array de ints de números random desordenados 
+	 * Metodo principal del Merge Sort
+	 * @param arr Array de ints de numeros random desordenados
 	 * @param l Inicio del Array 
 	 * @param r Final del Array 
 	 */
@@ -85,8 +85,8 @@ class MergeSort {
 	}
 
 	/**
-	 * Método que imprime el Array ordenado 
-	 * @param arr Array de int de números random 
+	 * Metodo que imprime el Array ordenado
+	 * @param arr Array de int de numeros random
 	 */
 	void printArray(int arr[])
 	{

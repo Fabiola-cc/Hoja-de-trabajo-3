@@ -30,7 +30,9 @@ public class UI {
         menuPrincipal();
 
     }
-
+    /**
+     * Método que genera el menu principal para el uso del usuario 
+     */
     static public void menuPrincipal() {
 
         System.out.println("\nBinvenido a la prueba de algoritmos de ordenamiento");

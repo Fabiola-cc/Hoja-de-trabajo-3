@@ -8,7 +8,7 @@
 public class GnomeSort {
 
     /**
-     * Método de ordenamiento de números 
+     * MEtodo de ordenamiento de números
      * @param arr Array de tipo int con números aleatorios desordenados 
      * @param n Cantidad de elementos dentro de Array 
      */

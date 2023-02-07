@@ -15,8 +15,8 @@ import java.util.ArrayList;
 public class Converter {
 
     /**
-     * Método que convierte de un archivo txt a un ArrayList los números aleatorios.
-     * @return ArrayList con números aleatorios
+     * Metodo que convierte de un archivo txt a un ArrayList los numeros aleatorios.
+     * @return ArrayList con numeros aleatorios
      */
     public ArrayList<Integer> fromTxtToArrayList() {
 
@@ -38,8 +38,8 @@ public class Converter {
     }
 
     /**
-     * Método que convierte de un ArrayList<Integer> a un Array Integer y luego a un Array int
-     * @param NewArrayRandomNum ArrayList con números random que fueron tomados de un txt
+     * Metodo que convierte de un ArrayList<Integer> a un Array Integer y luego a un Array int
+     * @param NewArrayRandomNum ArrayList con numeros random que fueron tomados de un txt
      * @return Array int
      */
     public int[] fromArrayListToArray(ArrayList<Integer> NewArrayRandomNum) {
